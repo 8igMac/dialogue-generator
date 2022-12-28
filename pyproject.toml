@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dialogue-generator"
+version = "0.1.0"
+description = "Generate dialogue with ChatGPT."
+authors = ["8igmac <8igmac@pm.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "dialogue_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
