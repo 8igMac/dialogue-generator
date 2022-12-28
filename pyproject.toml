@@ -9,6 +9,7 @@ packages = [{include = "dialogue_generator"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+revchatgpt = "0.0.47.2"
 
 
 [build-system]
