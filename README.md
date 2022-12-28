@@ -12,3 +12,7 @@ $ poetry install
 ```sh
 $ poetry run revChatGPT
 ```
+- Generate dialog data. (Generated dialog will be in `data/` directory).
+```sh
+$ poetry run python dialogue-generator/gen_dialog.py
+```
